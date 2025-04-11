@@ -1,0 +1,7 @@
+# Ignore everything inside chessbot-chrome-profile...
+chessbot-chrome-profile/*
+
+# ...except this empty placeholder
+!chessbot-chrome-profile/.gitkeep
+
+stockfish/
