@@ -15,8 +15,9 @@ from selenium.webdriver.support import expected_conditions as EC
 # === TKINTER ===
 
 # === CONFIGURATION ===
-STOCKFISH_PATH = r"C:\Users\imaji\Desktop\z\coding\chessbot\stockfish\stockfish-windows-x86-64-avx2.exe"
-CHROME_PROFILE_PATH = r"C:\Users\imaji\Desktop\z\coding\chessbot\chessbot-chrome-profile"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+STOCKFISH_PATH = os.path.join(BASE_DIR, "stockfish", "stockfish-windows-x86-64-avx2.exe")
+CHROME_PROFILE_PATH = os.path.join(BASE_DIR, "chessbot-chrome-profile")
 
 # === INITIALIZE ENGINE ===
 engine = chess.engine.SimpleEngine.popen_uci(STOCKFISH_PATH)
