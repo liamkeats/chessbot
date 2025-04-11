@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ChessBot
 
 An automated chess-playing bot using Python, Selenium, and the Stockfish engine.
@@ -94,3 +95,6 @@ The bot will:
 - The `chessbot-chrome-profile/` folder is included in the repo but stays empty (thanks to `.gitkeep`).
 - Use Chrome with the launched user profile so your session and settings persist.
 - Some sites may detect automation — use this bot responsibly.
+=======
+# chessbot
+>>>>>>> fc61cb070cd29af9630b0cb478a611d6ceba0607
